@@ -1,16 +1,16 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "22570090"))
-  API_HASH = os.environ.get("API_HASH", "6f247cd7dfa87c0e6a2ee2931b52eb0b")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  API_ID = int(os.environ.get("API_ID", "26359942"))
+  API_HASH = os.environ.get("API_HASH", "0391f66fa98d9ccb8507d9ede660eb91")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6312839177:AAHE7L0VE8NlsPhfyjRrqkn4QJEOsxrgrdQ")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_store_ro_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001945322257"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "onepagelink.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "8b05406c954d2e76788d71308f74fdd20b4c4cbb")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5646127927"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Nizam78:Nizam786@cluster0.6sqm0lq.mongodb.net/?retryWrites=true&w=majority")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002011885264")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Zxcv:Zxcvbnm@cluster0.uqakxxn.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001898011964")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884194465"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
